@@ -1,0 +1,1 @@
+Unpublished Firefox extension to convert speed from min/km to km/h when logged in and looking at a running activity on strava/activities.

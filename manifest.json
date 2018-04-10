@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "Strava pace to km/h",
+  "version": "1.0",
+
+  "description": "Changes pace(min/km) to speed(km/h).",
+
+  "icons": {
+    "48": "icons/running_shoe.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.strava.com/activities/*"],
+      "js": ["converter.js"]
+    }
+  ]
+
+}
